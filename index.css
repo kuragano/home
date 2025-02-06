@@ -1,0 +1,74 @@
+/* div{
+    border:0.2px, solid;
+} */
+
+.header{
+    /* background-image: url(ill.jpg); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:0.2px, solid;
+    border-color: #bdc4cf;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+ul{
+    display: flex;
+    padding-inline-start: 0;
+}
+
+li{
+    display: auto;
+    list-style: none;
+    border:0.2px, solid;
+    border-color: #bdc4cf;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    
+    /* マージンやパディングで間隔をあけると改行されてしまう */
+
+}
+
+/* お問い合わせメニューの右側の線を非表示 */
+li:nth-child(4){
+    border: none;
+}
+
+.sample_image{
+    width: 300px;
+    height: 250px;
+    background-image: url(ill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+body{
+  /* opacity: 0.3; */
+  /* background-image: url(ill.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-color: #464646; */
+}
+
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* 
+.keyvisual{
+    background-image: url(ill.jpg);
+} */
+
+/*h1{
+    padding: 0.5em;/*文字周りの余白
+    color: #494949;/*文字色
+    background: #fffaf4;/*背景色
+    border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）
+}*/
+
